@@ -132,7 +132,7 @@
 	
 	// create a variable for your popup and populate your popup with information from your table
 	var popup = new mapboxgl.Popup()
-	.setHTML(`<h3>` + row.Name + `</h3>` + '<h4>' + '<b>' + ‘Full Address: ' + '</b>' + row.Full Address + '</h4>' + '<h4>' + '<b>' + 'Refugees hit by COVID?’ + '</b>' + row.Phone + '</h4>'+ '<h4>' + '<b>'+ 'Refugee population:' + '</b>' + row.Refugee population + '</h4>'+ '<h4>' + '<b>'+ 'Covid Cases (amongst refugees): ' + '</b>' + row.Covid Cases (amongst refugees) + '</h4>'+ '<b>'+ 'Type of Settlement: ' + '</b>' + row.Type of Settlement + '</h4>'); // use the table to populate your popup with text
+	.setHTML('<h3>' + row.Name + '</h3>' + '<h4>' + '<b>' + 'Full Address: ' + '</b>' + row.Full Address + '</h4>' + '<h4>' + '<b>' + 'Refugees hit by COVID?' + '</b>' + row.Phone + '</h4>'+ '<h4>' + '<b>'+ 'Refugee population:' + '</b>' + row.Refugee population + '</h4>'+ '<h4>' + '<b>'+ 'Covid Cases (amongst refugees): ' + '</b>' + row.Covid Cases (amongst refugees) + '</h4>'+ '<b>'+ 'Type of Settlement: ' + '</b>' + row.Type of Settlement + '</h4>'); // use the table to populate your popup with text
 	
 	
 	// create a variable for your markup and add it to the map
